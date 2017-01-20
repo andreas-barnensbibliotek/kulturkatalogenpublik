@@ -4,3 +4,4 @@ D:\wwwroot\dnndev_v9.me\bin\kulturkatalogen.xml
 D:\wwwroot\dnndev_v9.me\DesktopModules\kulturkatalogen\obj\Debug\kulturkatalogen.dll
 D:\wwwroot\dnndev_v9.me\DesktopModules\kulturkatalogen\obj\Debug\kulturkatalogen.xml
 D:\wwwroot\dnndev_v9.me\DesktopModules\kulturkatalogen\obj\Debug\kulturkatalogen.pdb
+D:\wwwroot\dnndev_v9.me\DesktopModules\kulturkatalogen\obj\Debug\kulturkatalogen.vbprojResolveAssemblyReference.cache

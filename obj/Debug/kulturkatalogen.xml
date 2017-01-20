@@ -6,7 +6,7 @@ kulturkatalogen
 </name>
 </assembly>
 <members>
-<member name="T:andresj.kulturkatalogen.Components.FeatureController">
+<member name="T:Christoc.Modules.kulturkatalogen.Components.FeatureController">
  <summary>
  The Controller class for kulturkatalogen
  
@@ -23,7 +23,7 @@ kulturkatalogen
  Below you will find stubbed out implementations of each, uncomment and populate with your own data
  </summary>
 </member>
-<member name="T:andresj.kulturkatalogen.Data.DataProvider">
+<member name="T:Christoc.Modules.kulturkatalogen.Data.DataProvider">
  <summary>
  An abstract class for the data access layer
  
@@ -31,7 +31,7 @@ kulturkatalogen
  must implement. You'll find two commented out examples in the Abstract methods region below.
  </summary>
 </member>
-<member name="T:andresj.kulturkatalogen.Data.SqlDataProvider">
+<member name="T:Christoc.Modules.kulturkatalogen.Data.SqlDataProvider">
  -----------------------------------------------------------------------------
  <summary>
  SQL Server implementation of the abstract DataProvider class
@@ -47,7 +47,7 @@ kulturkatalogen
  </history>
  -----------------------------------------------------------------------------
 </member>
-<member name="T:andresj.kulturkatalogen.Settings">
+<member name="T:Christoc.Modules.kulturkatalogen.Settings">
  -----------------------------------------------------------------------------
  <summary>
  The Settings class manages Module Settings
@@ -69,7 +69,7 @@ kulturkatalogen
  </summary>
  -----------------------------------------------------------------------------
 </member>
-<member name="M:andresj.kulturkatalogen.Settings.LoadSettings">
+<member name="M:Christoc.Modules.kulturkatalogen.Settings.LoadSettings">
  -----------------------------------------------------------------------------
  <summary>
  LoadSettings loads the settings from the Database and displays them
@@ -80,7 +80,7 @@ kulturkatalogen
  </history>
  -----------------------------------------------------------------------------
 </member>
-<member name="M:andresj.kulturkatalogen.Settings.UpdateSettings">
+<member name="M:Christoc.Modules.kulturkatalogen.Settings.UpdateSettings">
  -----------------------------------------------------------------------------
  <summary>
  UpdateSettings saves the modified settings to the Database
@@ -91,7 +91,7 @@ kulturkatalogen
  </history>
  -----------------------------------------------------------------------------
 </member>
-<member name="T:andresj.kulturkatalogen.Edit">
+<member name="T:Christoc.Modules.kulturkatalogen.Edit">
  <summary>
  The View class displays the content
  
@@ -104,7 +104,7 @@ kulturkatalogen
  
  </summary>
 </member>
-<member name="M:andresj.kulturkatalogen.Edit.Page_Load(System.Object,System.EventArgs)">
+<member name="M:Christoc.Modules.kulturkatalogen.Edit.Page_Load(System.Object,System.EventArgs)">
  -----------------------------------------------------------------------------
  <summary>
  Page_Load runs when the control is loaded
@@ -115,7 +115,7 @@ kulturkatalogen
  </history>
  -----------------------------------------------------------------------------
 </member>
-<member name="T:andresj.kulturkatalogen.View">
+<member name="T:Christoc.Modules.kulturkatalogen.View">
  <summary>
  The View class displays the content
  
@@ -128,25 +128,7 @@ kulturkatalogen
  
  </summary>
 </member>
-<member name="F:andresj.kulturkatalogen.View._DnnCssMainInclude">
-<summary>
-DnnCssMainInclude control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:andresj.kulturkatalogen.View._DnnJsMainInclude">
-<summary>
-DnnJsMainInclude control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="M:andresj.kulturkatalogen.View.Page_Load(System.Object,System.EventArgs)">
+<member name="M:Christoc.Modules.kulturkatalogen.View.Page_Load(System.Object,System.EventArgs)">
  -----------------------------------------------------------------------------
  <summary>
  Page_Load runs when the control is loaded
@@ -157,7 +139,7 @@ To modify move field declaration from designer file to code-behind file.
  </history>
  -----------------------------------------------------------------------------
 </member>
-<member name="P:andresj.kulturkatalogen.View.ModuleActions">
+<member name="P:Christoc.Modules.kulturkatalogen.View.ModuleActions">
  -----------------------------------------------------------------------------
  <summary>
  Registers the module actions required for interfacing with the portal framework
